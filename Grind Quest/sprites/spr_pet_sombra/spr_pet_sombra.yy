@@ -40,8 +40,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Pets",
-    "path":"folders/Sprites/Pets.yy",
+    "name":"Eye",
+    "path":"folders/Sprites/Pets/Eye.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

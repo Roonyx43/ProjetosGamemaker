@@ -1,1 +1,0 @@
-path_start(Path1, 1, path_action_stop, true);

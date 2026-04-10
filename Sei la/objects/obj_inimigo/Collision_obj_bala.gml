@@ -1,1 +1,0 @@
-vida -= obj_player.damage	

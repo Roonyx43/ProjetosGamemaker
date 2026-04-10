@@ -1,1 +1,0 @@
-draw_text(20, 20, string(instance_number(ent_inimigo_1)))

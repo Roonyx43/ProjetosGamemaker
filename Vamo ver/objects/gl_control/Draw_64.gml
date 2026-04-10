@@ -1,0 +1,1 @@
+draw_text(360, 20, string(global.timer))

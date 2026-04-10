@@ -1,0 +1,1 @@
+global.choosing_card = false;

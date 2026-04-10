@@ -1,0 +1,1 @@
+global.pineapple = 0;

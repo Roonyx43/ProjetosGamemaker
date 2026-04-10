@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_atirar",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_atirar",
+  "parent":{
+    "name":"Player",
+    "path":"folders/scripts/Player.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

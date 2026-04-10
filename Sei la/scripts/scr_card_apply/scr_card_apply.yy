@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_card_apply",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_card_apply",
+  "parent":{
+    "name":"LevelUp",
+    "path":"folders/scripts/LevelUp.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -1,0 +1,1 @@
+instance_create_layer(x, y, "Props", obj_vfx_coleta)

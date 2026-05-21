@@ -14,6 +14,7 @@ for (var i = 0; i < array_length(menu_opcoes); i++){
         _cor = c_red
     }
     
+    
     draw_set_color(_cor)
     draw_text(_xx, _yy + (i * 40), menu_opcoes[i])
     draw_set_color(-1)

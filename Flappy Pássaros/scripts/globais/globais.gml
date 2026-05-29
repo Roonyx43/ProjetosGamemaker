@@ -8,6 +8,13 @@ global.level = 1;
 
 global.lista_pontos = [100, 250, 500, 800, 1200, 1800, 2500, 3500, 5000]
 
+global.cursor_sprite = spr_pointer
+
+global.destino = rm_jogo
+
+global.transicao = false
+
+global.foiClicado = false
 //Funções
 
 function perde_jogo(){
@@ -27,5 +34,19 @@ function perde_jogo(){
 	if (!instance_exists(obj_vfx_impact)){
 		instance_create_depth(x, y, -1, obj_vfx_impact)
 	}
-	alarm[0] = game_get_speed(gamespeed_fps) * 2;
+	alarm[0] = game_get_speed(gamespeed_fps);
+	
+	global.destino = rm_menu
+	
+	layer_sequence_create("Transicao", 0, 0, sq_transicao_1)
+	
+}
+
+function muda_room(){
+	room_goto(global.destino)
+	global.foiClicado = true
+}
+
+function encerra_transicao(){
+	global.transicao = false
 }

@@ -1,0 +1,8 @@
+draw_set_font(fnt_moedas)
+draw_set_valign(fa_center)
+draw_set_halign(fa_center)
+draw_text(100, 40, string(global.peixes))
+draw_sprite_ext(spr_icone_peixe, 0, 45, 40, 2, 2, 0, c_white, 1)
+draw_set_font(-1)
+draw_set_valign(-1)
+draw_set_halign(-1)

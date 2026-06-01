@@ -14,6 +14,7 @@
   "frames":[
     {"$GMSpriteFrame":"v1","%Name":"3557ef59-4455-486c-a233-773fc68fda76","name":"3557ef59-4455-486c-a233-773fc68fda76","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"5f35c18b-40d3-4edd-8954-e69c8bdb1327","name":"5f35c18b-40d3-4edd-8954-e69c8bdb1327","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"51909a24-7421-4ba6-8803-d121feea0a6a","name":"51909a24-7421-4ba6-8803-d121feea0a6a","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
     {"$GMSpriteFrame":"v1","%Name":"64b64d1c-62b5-43dd-9abd-8b72b60316ed","name":"64b64d1c-62b5-43dd-9abd-8b72b60316ed","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
@@ -70,7 +71,7 @@
     },
     "eventStubScript":null,
     "eventToFunction":{},
-    "length":3.0,
+    "length":4.0,
     "lockOrigin":false,
     "moments":{
       "$KeyframeStore<MomentsEventKeyframe>":"",
@@ -96,8 +97,11 @@
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"5f35c18b-40d3-4edd-8954-e69c8bdb1327","path":"sprites/spr_botao/spr_botao.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"da4d7981-a445-459c-ad70-63ad04bdf60c","IsCreationKey":false,"Key":1.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"51909a24-7421-4ba6-8803-d121feea0a6a","path":"sprites/spr_botao/spr_botao.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"d8b3c0b5-637b-4e6f-867f-da30b6b5f95f","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+            {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
                 "0":{"$SpriteFrameKeyframe":"","Id":{"name":"64b64d1c-62b5-43dd-9abd-8b72b60316ed","path":"sprites/spr_botao/spr_botao.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"b005e103-fc98-4bdb-9b91-02396d88ff93","IsCreationKey":false,"Key":2.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+              },"Disabled":false,"id":"b005e103-fc98-4bdb-9b91-02396d88ff93","IsCreationKey":false,"Key":3.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

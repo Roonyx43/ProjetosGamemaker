@@ -10,6 +10,14 @@ if (global.perdeu) {
 	
 }
 
+if (global.pontos >= 1000){
+	global.itens_bloqueados[1] = false
+}
+if (global.pontos >= 3000){
+	global.itens_bloqueados[2] = false
+}
+
+
 if (parar_background) {
     bg_7_spd = approach(bg_7_spd, 0, 0.005);
     bg_5_spd = approach(bg_5_spd, 0, 0.005);

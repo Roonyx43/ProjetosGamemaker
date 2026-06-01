@@ -7,6 +7,9 @@ if (!global.perdeu){
 		
 		if (global.pontos >= _pontos_necessarios) {
 			global.level++
+			if (!audio_is_playing(snd_sfx_levelup)){
+				audio_play_sound(snd_sfx_levelup, 0, 0, 0.3)
+			}
 		}
 		
 	}

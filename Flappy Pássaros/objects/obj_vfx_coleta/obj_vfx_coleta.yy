@@ -9,8 +9,8 @@
   "name":"obj_vfx_coleta",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"VFX",
+    "path":"folders/Objects/VFX.yy",
   },
   "parentObjectId":null,
   "persistent":false,

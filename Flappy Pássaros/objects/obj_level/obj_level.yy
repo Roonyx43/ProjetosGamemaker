@@ -13,8 +13,8 @@
   "name":"obj_level",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Globais",
+    "path":"folders/Objects/Globais.yy",
   },
   "parentObjectId":null,
   "persistent":false,

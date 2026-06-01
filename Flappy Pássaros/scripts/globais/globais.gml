@@ -15,6 +15,14 @@ global.destino = rm_jogo
 global.transicao = false
 
 global.foiClicado = false
+
+global.itens_bloqueados = [false, true, true]
+
+global.passaro_selecionado = spr_arara
+
+global.passaro = 0;
+
+global.efeitos = true;
 //Funções
 
 function perde_jogo(){
@@ -38,6 +46,13 @@ function perde_jogo(){
 	
 	global.destino = rm_menu
 	
+	var _pitch = random_range(0.5, 1.5)
+	
+	if (!audio_is_playing(snd_sfx_collision)){
+		
+		audio_play_sound(snd_sfx_collision, 0, 0, 1, 0, _pitch)
+	}
+	
 	layer_sequence_create("Transicao", 0, 0, sq_transicao_1)
 	
 }
@@ -49,4 +64,11 @@ function muda_room(){
 
 function encerra_transicao(){
 	global.transicao = false
+}
+
+function ativa_efeitos(){
+	layer_enable_fx("Folhas", global.efeitos)
+	layer_enable_fx("Water_VFX", global.efeitos)
+	layer_enable_fx("Props", global.efeitos)
+	layer_enable_fx("Inimigo", global.efeitos)
 }

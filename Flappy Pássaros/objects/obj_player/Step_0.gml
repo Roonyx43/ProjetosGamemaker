@@ -10,10 +10,10 @@ if (global.perdeu) {
 	
 }
 
-if (global.pontos >= 1000){
+if (global.pontos >= 500){
 	global.itens_bloqueados[1] = false
 }
-if (global.pontos >= 3000){
+if (global.pontos >= 2000){
 	global.itens_bloqueados[2] = false
 }
 

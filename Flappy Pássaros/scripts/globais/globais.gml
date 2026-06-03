@@ -3,6 +3,8 @@ global.perdeu = false;
 global.peixes = 0;
 global.pontos = 0;
 
+global.max_pontos = 0;
+
 //Variaveis do Level
 global.level = 1;
 
@@ -32,6 +34,7 @@ function perde_jogo(){
 	//Avisando o jogo que perdi
 	global.perdeu = true;
 	global.level = 1
+	global.max_pontos = global.pontos
 	
 	//Aplicando o efeito de "Subir" ao perder
 	vspeed = -4

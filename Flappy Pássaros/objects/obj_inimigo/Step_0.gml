@@ -16,3 +16,6 @@ if (!global.perdeu) {
  if (x <= -100) {
 	instance_destroy()
  }
+
+audio_emitter_position(emitter_asas, x, y, 0);
+audio_emitter_velocity(emitter_asas, hspeed, vspeed, 0);

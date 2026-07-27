@@ -1,0 +1,1 @@
+global.estado_jogo = "playing"

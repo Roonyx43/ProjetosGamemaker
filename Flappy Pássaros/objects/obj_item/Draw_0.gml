@@ -3,7 +3,7 @@ if (!bloqueado){
 	draw_set_font(fnt_menu_sm)
 	draw_set_valign(fa_center)
 	draw_set_halign(fa_center)
-	if (comprado == true) {
+	if (comprado) {
 		if (indice != global.passaro){
 			draw_text(id.x, id.y + 60, "Já possui")
 		} else if (indice == global.passaro){

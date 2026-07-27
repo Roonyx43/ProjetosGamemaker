@@ -1,6 +1,14 @@
 if (pode_comprar && global.peixes >= custo && !comprado){
 	global.peixes = global.peixes - custo
 	comprado = true
+	if (indice == 0){
+		global.passaros_comprados.arara = true;
+	} else if (indice == 1) {
+		global.passaros_comprados.coruja = true;
+	} else if (indice == 2){
+		global.passaros_comprados.carcara = true;
+	}
+	
 } else if (comprado) {
 	
 	switch(indice) {

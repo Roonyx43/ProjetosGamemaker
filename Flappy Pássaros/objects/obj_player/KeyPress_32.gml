@@ -15,3 +15,5 @@ if (global.passaro_selecionado == spr_arara) {
 } else if (global.passaro_selecionado == spr_carcara) {
 	audio_play_sound(snd_sfx_wings, 0, 0, 1, 0, 0.8)
 }
+
+instance_create_layer(x, y + 10, "Player", obj_vfx_wind)

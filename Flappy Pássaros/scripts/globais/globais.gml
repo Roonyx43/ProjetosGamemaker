@@ -25,6 +25,14 @@ global.passaro_selecionado = spr_arara
 global.passaro = 0;
 
 global.efeitos = true;
+
+
+global.passaros_comprados = {
+	"arara": true,
+	"coruja": false,
+	"carcara": false,
+}
+
 //Funções
 
 function perde_jogo(){

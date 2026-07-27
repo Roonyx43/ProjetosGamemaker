@@ -10,6 +10,13 @@ if (global.perdeu) {
 	
 }
 
+
+if (instance_exists(obj_inimigo)){
+	if ((point_distance(x, y, obj_inimigo.x, obj_inimigo.y) <= 80) && !instance_exists(obj_vfx_waterdrop)){
+		instance_create_layer(x + 4, y - 2, "Effects", obj_vfx_waterdrop);
+	}
+}
+
 if (global.pontos >= 500){
 	global.itens_bloqueados[1] = false
 }

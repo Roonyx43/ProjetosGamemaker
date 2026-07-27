@@ -3,6 +3,7 @@
   "%Name":"obj_vfx_impact",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_vfx_impact",
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_vfx_smoke",
-    "path":"sprites/spr_vfx_smoke/spr_vfx_smoke.yy",
+    "name":"spr_vfx_impact",
+    "path":"sprites/spr_vfx_impact/spr_vfx_impact.yy",
   },
   "spriteMaskId":null,
   "visible":true,

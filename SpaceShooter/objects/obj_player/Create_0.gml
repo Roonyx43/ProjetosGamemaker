@@ -36,7 +36,7 @@ function controlar_player(){
 	
 	if (_atirar && timer_tiro <= 0){
 		var _tiro = instance_create_layer(x, y - 10, "Disparos", obj_tiro_player)
-		_tiro.vspeed = -12
+		_tiro.vspeed = -5
 	 	timer_tiro = espera_tiro
 	}
 	

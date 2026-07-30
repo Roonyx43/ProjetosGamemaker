@@ -1,0 +1,1 @@
+criou_efeito = false

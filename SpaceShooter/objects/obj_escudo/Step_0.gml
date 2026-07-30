@@ -1,4 +1,3 @@
-
-
-x = obj_player.x
-y = obj_player.y
+if (image_index <= 0.2){
+	instance_destroy()
+}

@@ -1,0 +1,2 @@
+morrer()
+other.vidas--

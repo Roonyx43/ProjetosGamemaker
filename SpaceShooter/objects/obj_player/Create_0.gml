@@ -129,6 +129,8 @@ function perder_vida(){
 	
 	if (timer_invencivel > 0) return;
 	
+	obj_screenshake.treme = 20
+	
 	if (vidas > 0){
 		vidas--
 		timer_invencivel = espera_invencivel

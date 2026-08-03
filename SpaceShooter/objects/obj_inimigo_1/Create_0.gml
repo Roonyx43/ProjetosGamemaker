@@ -1,6 +1,6 @@
 randomise()
 
-vidas = 3
+vidas = 1
 
 vel_tiros = game_get_speed(gamespeed_fps)
 

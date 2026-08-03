@@ -1,0 +1,1 @@
+obj_screenshake.treme = 5
